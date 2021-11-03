@@ -1,0 +1,46 @@
+html {
+  min-height: 100%;
+  position: relative;
+}
+body {
+  background-color: rgb(174,201,234,0.62);
+}
+#banner_image {
+  min-height: 650px;
+  padding-top: 30vh;
+  padding-bottom: 150px;
+  text-align: center;
+  color: #f8f8f8;
+  background: url(../img/banner.jpg) center;
+  background-size: cover;
+}
+.banner-content {
+  position: relative;
+  padding-top: 6%;
+  padding-bottom: 6%;
+  overflow: hidden;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+hr{ /* White line between brand and links on collapsing navbar */
+  color: #fff;
+}
+.navbar-dark .navbar-nav .nav-link:hover{ /* Create navbar link white on hover*/
+  color:#fff;
+}
+.content { /* To leave space between Navbar and main content */
+  padding-top: 50px;
+  margin-top: 30px;
+  margin-bottom: 70px;
+}
+
+footer {
+  position: absolute;
+  text-align: center;
+  padding: 10px;
+  background-color: #101010;
+  color: #9d9d9d;
+  bottom: 0;
+  right:0;
+  left:0;
+  width: 100%;
+}
